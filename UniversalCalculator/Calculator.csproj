@@ -122,6 +122,9 @@
     <Compile Include="MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Mortgage_Calculator_Page.xaml.cs">
+      <DependentUpon>Mortgage_Calculator_Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TripCalculator.xaml.cs">
       <DependentUpon>TripCalculator.xaml</DependentUpon>
     </Compile>
@@ -164,6 +167,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Mortgage_Calculator_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

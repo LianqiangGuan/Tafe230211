@@ -31,5 +31,10 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(TripCalculator));
 		}
+		private void mathsCalculatorButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainPage));
+		}
+
 	}
 }
