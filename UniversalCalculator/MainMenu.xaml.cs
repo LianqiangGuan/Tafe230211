@@ -43,6 +43,9 @@ namespace Calculator
 			this.Frame.Navigate(typeof(MainPage));
 		}
 
-	
+		private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+		{
+
+		}
 	}
 }
