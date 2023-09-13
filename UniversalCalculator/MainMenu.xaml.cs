@@ -42,5 +42,7 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(MainPage));
 		}
+
+	
 	}
 }
