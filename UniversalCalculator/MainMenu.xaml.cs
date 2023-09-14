@@ -45,5 +45,6 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(CurrencyCalculator));
 		}
+
 	}
 }
