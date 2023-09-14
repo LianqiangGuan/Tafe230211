@@ -40,5 +40,10 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(MortgageCalculator));
 		}
+
+		private void Button_Click_2(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(CurrencyCalculator));
+		}
 	}
 }
